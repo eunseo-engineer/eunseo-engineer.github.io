@@ -1,8 +1,8 @@
 ---
 title:  "How to setting GPU Driver and Cuda"
 date:   2022-06-30 16:56:23
-categories: [Setup GPU]
-tags: [GPUDRIVER] [CUDA]
+categories: [SetupGPU]
+tags: [GPUDRIVER]
 ---
 
 # Device Check
