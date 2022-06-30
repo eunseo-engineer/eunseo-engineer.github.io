@@ -1,19 +1,19 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Eunseo-Engineer
+description: 'Engineer EunseoS Develop Diary'
 url: 'https://eunseo-engineer.github.io/'
-baseurl: '/jekyll-uno'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Eunseo Choi'
+  email: eunseo950320@gmail.comm
+  twitter_username: developersonada
+  facebook_username: 
+  github_username:  eunseo-engineers
+  linkedin_username:  
 
 defaults:
   -
