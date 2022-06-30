@@ -1,10 +1,18 @@
----
+<!-- ---
 title:  "How to setting GPU Driver and Cuda"
 date:   2022-06-30 16:56:23
 categories: [SetupGPU]
 tags: [GPUDRIVER]
----
+--- -->
 
+
+---
+title:  "Welcome to Eunseo's Blog!"
+date:   2016-01-08 15:04:23
+categories: [github blog]
+tags: [jekyll]
+
+---
 # Device Check
 
 ## GPU CHECK
