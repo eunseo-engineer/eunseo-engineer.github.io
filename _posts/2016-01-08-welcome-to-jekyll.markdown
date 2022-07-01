@@ -11,7 +11,6 @@ title:  "Welcome to Eunseo's Blog!"
 date:   2016-01-08 15:04:23
 categories: [github blog]
 tags: [jekyll]
-
 ---
 # Device Check
 
