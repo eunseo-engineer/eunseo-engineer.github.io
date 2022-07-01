@@ -1,24 +1,26 @@
-<!-- ---
+---
 title:  "How to setting GPU Driver and Cuda"
 date:   2022-06-30 16:56:23
 categories: [SetupGPU]
 tags: [GPUDRIVER]
---- -->
+--- 
 
 
----
+<!-- ---
 title:  "Welcome to Eunseo's Blog!"
 date:   2016-01-08 15:04:23
 categories: [github blog]
 tags: [jekyll]
----
+--- -->
 # Device Check
 
 ## GPU CHECK
 
+
     update-pciids
 
 - gpu update
+
 
     lspci | grep -i nvidia
 
@@ -66,7 +68,7 @@ tags: [jekyll]
     export LD_LIBRARY_PATH=/usr/local/cuda-{version}/lib64:$LD_LIBRARY_PATH
 
 
-![Alt text](D:\ada\git\blog\eunseo-engineer.github.io\images\cuda_path_in_bashrc.png)
+![Alt text](r'D:\ada\git\blog\eunseo-engineer.github.io\images\cuda_path_in_bashrc.png')
 
 
 - 위와 같이 맨 아랫줄에 cuda-{version}의 경로를 환경변수에 적용 시켜준다. (마지막줄은 추가하지 않아도 된다.)
