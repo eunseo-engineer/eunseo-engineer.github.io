@@ -7,13 +7,17 @@ tags: [GPUDRIVER]
 
 # Device Check
 
+
 ## GPU CHECK
+
 
     update-pciids
 
 - gpu update
 
+
     lspci | grep -i nvidia
+
 
 - check gpu about model name
 
@@ -25,13 +29,16 @@ tags: [GPUDRIVER]
 
     apt —installed list | grep nvidia-driver
 
+
 - nvidia-smi가 확인되지 않거나, 그래픽 드라이버에 문제가 없다고 생각되면 위의 명령어로 드라이버가 제대로 설치 되었는지 확인한다.
 - 확인 후, 드라이버가 잘못 설치되었음이 확인되면 삭제 후 재 설치 한다.
 - 설치된 드라이버가 확인 되지 않으면 재 설치 한다.
 
+
 ## CUDA CHECK
 
     nvcc —version
+
 
 
 - CUDA VERSION CHECK
@@ -59,7 +66,7 @@ tags: [GPUDRIVER]
     export LD_LIBRARY_PATH=/usr/local/cuda-{version}/lib64:$LD_LIBRARY_PATH
 
 
-![Alt text](D:\ada\git\blog\eunseo-engineer.github.io\images\cuda_path_in_bashrc.png)
+![Alt text](.\images\cuda_path_in_bashrc.png)
 
 
 - 위와 같이 맨 아랫줄에 cuda-{version}의 경로를 환경변수에 적용 시켜준다. (마지막줄은 추가하지 않아도 된다.)
