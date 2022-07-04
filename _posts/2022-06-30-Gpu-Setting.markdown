@@ -66,7 +66,7 @@ tags: [GPUDRIVER]
     export LD_LIBRARY_PATH=/usr/local/cuda-{version}/lib64:$LD_LIBRARY_PATH
 
 
-![Alt text2](./images/cuda_path_in_bashrc.png)
+![cuda path]](./images/cuda_path_in_bashrc.png)
 
 
 - 위와 같이 맨 아랫줄에 cuda-{version}의 경로를 환경변수에 적용 시켜준다. (마지막줄은 추가하지 않아도 된다.)
