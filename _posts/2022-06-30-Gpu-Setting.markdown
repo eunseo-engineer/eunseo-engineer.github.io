@@ -4,6 +4,10 @@ date:   2022-06-30 16:56:23
 categories: [SetupGPU]
 tags: [GPUDRIVER]
 ---
+
+![Alt]](images/cuda_path_in_bashrc.png)
+
+
 Tensorflow를 돌리기전에 pc에 driver와 cuda를 설치해줘야 한다. 가장 편한건 conda나 docker를 사용해 바로 tensorflow-gpu 를 돌리는 것이지만, 그 경우에도 일단 nvidia-driver는 깔려 있어야한다. 그러므로 우선, ubuntu 18.04 기준으로 driver와 cuda를 설치하는 전 과정을 기술한다. 
 
 
