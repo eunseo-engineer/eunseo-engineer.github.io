@@ -68,7 +68,7 @@ Tensorflow를 돌리기전에 pc에 driver와 cuda를 설치해줘야 한다. �
     export LD_LIBRARY_PATH=/usr/local/cuda-{version}/lib64:$LD_LIBRARY_PATH
 
 
-![cuda_img_src]](images\cuda_path_in_bashrc.png)
+![cuda_img_src]](https://github.com/eunseo-engineer/eunseo-engineer.github.io/blob/main/images/cuda_path_in_bashrc.png?raw=true)
 
 
 - 위와 같이 맨 아랫줄에 cuda-{version}의 경로를 환경변수에 적용 시켜준다. (마지막줄은 추가하지 않아도 된다.)
