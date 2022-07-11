@@ -2,6 +2,6 @@
 
 layout: categories
 
-title: SetupGPU
+title: githun blog
 
 ---
